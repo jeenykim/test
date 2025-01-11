@@ -34,7 +34,7 @@ if file is None:
   # 사용자가 이미지를 업로드하지 않았을 경우에는 메시지를 출력하고, 
 else:
   image = Image.open(file)
-  st.image(image, use_column_width=True)
+  st.image(image, use_container_width=True)
   # 이미지를 업로드한 경우에는 해당 이미지를 출력한다.
   img_resized = ImageOps.fit(image, (224,224), Image.LANCZOS)
   # 업로드된 이미지를 ResNet50 모델에 입력할 수 있는 크기로 조정하고
