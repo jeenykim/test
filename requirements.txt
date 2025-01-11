@@ -1,7 +1,2 @@
-<<<<<<< HEAD
 tensorflow
 streamlit
-=======
-tensorflow
-streamlit
->>>>>>> b7c84e4ed5437f906c6dc1bfcf5140240abc8a45
