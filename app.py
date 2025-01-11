@@ -14,8 +14,7 @@ from keras.applications import ResNet50
 # Keras의 ResNet50 모델을 가져온다. 
 # 이 모델은 이미지 분류를 위해 사전 훈련된 ResNet50 아키텍처를 제공한다.
 
-# pip install streamlit
-# pip install tensorflow==2.15.0
+
 
 
 # Streamlit을 사용하여 이미지를 업로드하고 
